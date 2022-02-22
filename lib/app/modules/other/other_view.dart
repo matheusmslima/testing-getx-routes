@@ -15,7 +15,13 @@ class OtherView extends GetView<OtherController> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              const Text("You are in the Other Page."),
+              const Text(
+                "You are in the Other Page.",
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               ElevatedButton(
                 onPressed: () => Get.offNamed('/home'),
                 child: const Text('Go to Home page'),
