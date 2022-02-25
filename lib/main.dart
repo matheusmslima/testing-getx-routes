@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
+import 'package:myapp/routes/another_page_routers.dart';
 import 'package:myapp/routes/home_routers.dart';
 import 'package:myapp/routes/other_routers.dart';
 
@@ -10,6 +11,7 @@ void main() {
       getPages: [
         ...HomeRouters.routers,
         ...OtherRouters.routers,
+        ...AnotherPageRouters.routers,
       ],
     ),
   );
