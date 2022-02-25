@@ -8,7 +8,7 @@ class OtherView extends GetView<AnotherPageController> {
   @override
   Widget build(context) => Scaffold(
         appBar: AppBar(
-          title: const Text("Another Page"),
+          title: const Text("Another Page for testing stuff"),
         ),
         body: Center(
           child: Column(
